@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(node --version)",
+      "Bash(npm --version:*)",
+      "Bash(npx create-next-app@14 . --typescript --tailwind --app --no-src --import-alias \"@/*\" --eslint)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(nul)",
+      "Bash(findstr:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
