@@ -3,6 +3,24 @@ import { supabase } from "@/lib/supabase";
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if Supabase is properly configured
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+      console.error("Supabase environment variables not configured");
+      return NextResponse.json(
+        { error: "Service temporarily unavailable. Please try again later." },
+        { status: 503 }
+      );
+    }
+
+    // Check if using placeholder values
+    if (process.env.NEXT_PUBLIC_SUPABASE_URL === "https://placeholder.supabase.co") {
+      console.error("Supabase is not configured - using placeholder values");
+      return NextResponse.json(
+        { error: "Waitlist service is not yet configured. Please contact support." },
+        { status: 503 }
+      );
+    }
+
     const body = await request.json();
     const { name, email, company } = body;
 
