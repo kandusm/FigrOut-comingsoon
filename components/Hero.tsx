@@ -1,3 +1,5 @@
+import Logo from "./Logo";
+
 export default function Hero() {
   return (
     <section className="relative bg-gradient-to-br from-primary via-primary/95 to-primary/90 text-white py-20 md:py-32 overflow-hidden">
@@ -9,6 +11,14 @@ export default function Hero() {
       <div className="container-custom relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6">
+            {/* Logo */}
+            <div className="flex justify-center mb-8">
+              <Logo
+                className="w-32 h-auto md:w-40 lg:w-48 drop-shadow-lg"
+              />
+            </div>
+
+            {/* Text Wordmark */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight">
               <span className="font-bold">Figr</span>
               <span className="font-light">Out</span>

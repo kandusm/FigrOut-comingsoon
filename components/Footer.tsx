@@ -1,3 +1,5 @@
+import Logo from "./Logo";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -6,9 +8,12 @@ export default function Footer() {
       <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <div className="text-2xl font-bold mb-2">
-              <span className="font-bold">Figr</span>
-              <span className="font-light">Out</span>
+            <div className="flex items-center justify-center md:justify-start gap-3 mb-2">
+              <Logo className="w-12 h-auto" />
+              <div className="text-2xl font-bold">
+                <span className="font-bold">Figr</span>
+                <span className="font-light">Out</span>
+              </div>
             </div>
             <p className="text-white/70 text-sm">Your figures, figured out.</p>
           </div>

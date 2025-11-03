@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_x30_" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1920 1080">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #d7e5e8;
+      }
+
+      .st0, .st1, .st2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .7px;
+      }
+
+      .st1 {
+        fill: #222;
+      }
+
+      .st2 {
+        fill: #007c8a;
+      }
+    </style>
+  </defs>
+  <g id="LWPOLYLINE">
+    <rect class="st0" x="471.4" width="977.1" height="1080" rx="10.3" ry="10.3"/>
+  </g>
+  <g id="LWPOLYLINE1" data-name="LWPOLYLINE">
+    <rect class="st1" x="831.4" y="257.1" width="462.9" height="77.1" rx="10.3" ry="10.3"/>
+  </g>
+  <g id="LWPOLYLINE2" data-name="LWPOLYLINE">
+    <rect class="st1" x="831.4" y="366.4" width="462.9" height="77.1" rx="10.3" ry="10.3"/>
+  </g>
+  <g id="LWPOLYLINE3" data-name="LWPOLYLINE">
+    <path class="st2" d="M1345.7,632.6c0,5.7-4.6,10.3-10.3,10.3h-545.1c-5.7,0-10.3,4.6-10.3,10.3v390.9c0,5.7-4.6,10.3-10.3,10.3h-262.3c-5.7,0-10.3-4.6-10.3-10.3V36c0-5.7,4.6-10.3,10.3-10.3h905.1c5.7,0,10.3,4.6,10.3,10.3v210.9c0,5.7-4.6,10.3-10.3,10.3h-622.3c-5.7,0-10.3,4.6-10.3,10.3v165.8c0,5.7,4.6,10.3,10.3,10.3h545.1c5.7,0,10.3,4.6,10.3,10.3v178.8Z"/>
+  </g>
+</svg>
