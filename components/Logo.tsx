@@ -24,7 +24,7 @@ export default function Logo({ className = "", width, height }: LogoProps) {
               stroke: #000;
               stroke-linecap: round;
               stroke-linejoin: round;
-              stroke-width: 2px;
+              stroke-width: 4px;
             }
             .st1 {
               fill: #007c8a;
