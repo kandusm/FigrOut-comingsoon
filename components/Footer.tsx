@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-2">
-              <Logo className="w-12 h-auto" borderColor="#fff" borderWidth={8} />
+              <Logo className="w-12 h-auto" borderColor="#fff" borderWidth={16} />
               <div className="text-2xl font-bold">
                 <span className="font-bold">Figr</span>
                 <span className="font-light">Out</span>

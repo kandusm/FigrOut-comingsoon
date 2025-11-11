@@ -31,10 +31,30 @@ export default function Icon() {
           viewBox="0 0 1920 1080"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect fill="#d7e5e8" x="471.4" width="977.1" height="1080" rx="10.3" ry="10.3"/>
-          <rect fill="#222" x="831.4" y="257.1" width="462.9" height="77.1" rx="10.3" ry="10.3"/>
-          <rect fill="#222" x="831.4" y="366.4" width="462.9" height="77.1" rx="10.3" ry="10.3"/>
-          <path fill="#007c8a" d="M1345.7,632.6c0,5.7-4.6,10.3-10.3,10.3h-545.1c-5.7,0-10.3,4.6-10.3,10.3v390.9c0,5.7-4.6,10.3-10.3,10.3h-262.3c-5.7,0-10.3-4.6-10.3-10.3V36c0-5.7,4.6-10.3,10.3-10.3h905.1c5.7,0,10.3,4.6,10.3,10.3v210.9c0,5.7-4.6,10.3-10.3,10.3h-622.3c-5.7,0-10.3,4.6-10.3,10.3v165.8c0,5.7,4.6,10.3,10.3,10.3h545.1c5.7,0,10.3,4.6,10.3,10.3v178.8Z"/>
+          <path
+            fill="none"
+            stroke="#000"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M1435.2,243c6,0,10.8-4.8,10.8-10.8"
+          />
+          <path
+            fill="#007c8a"
+            stroke="#000"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M1435.2,243h-653.4c-6,0-10.8,4.8-10.8,10.8v815.4c0,6-4.8,10.8-10.8,10.8h-275.4c-6,0-10.8-4.8-10.8-10.8V10.8c0-6,4.8-10.8,10.8-10.8h950.4c6,0,10.8,4.8,10.8,10.8v221.4"
+          />
+          <polygon
+            fill="#231f20"
+            stroke="#000"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            points="879 330.7 879 438.7 771 438.7 771 648 879 648 879 756 1365 543.4 879 330.7"
+          />
         </svg>
       </div>
     ),
