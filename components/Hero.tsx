@@ -15,6 +15,7 @@ export default function Hero() {
             <div className="flex justify-center mb-8">
               <Logo
                 className="w-32 h-auto md:w-40 lg:w-48 drop-shadow-lg"
+                borderColor="#000"
               />
             </div>
 
