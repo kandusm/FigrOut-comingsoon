@@ -2,9 +2,10 @@ interface LogoProps {
   className?: string;
   width?: number;
   height?: number;
+  borderColor?: string;
 }
 
-export default function Logo({ className = "", width, height }: LogoProps) {
+export default function Logo({ className = "", width, height, borderColor = "#000" }: LogoProps) {
   return (
     <svg
       className={className}
@@ -21,7 +22,7 @@ export default function Logo({ className = "", width, height }: LogoProps) {
               fill: #231f20;
             }
             .st0, .st1, .st2 {
-              stroke: #000;
+              stroke: ${borderColor};
               stroke-linecap: round;
               stroke-linejoin: round;
               stroke-width: 4px;
