@@ -3,14 +3,15 @@ interface LogoProps {
   width?: number;
   height?: number;
   borderColor?: string;
+  borderWidth?: number;
 }
 
-export default function Logo({ className = "", width, height, borderColor = "#000" }: LogoProps) {
+export default function Logo({ className = "", width, height, borderColor = "#000", borderWidth = 4 }: LogoProps) {
   const strokeStyle = {
     stroke: borderColor,
     strokeLinecap: 'round' as const,
     strokeLinejoin: 'round' as const,
-    strokeWidth: '4px'
+    strokeWidth: `${borderWidth}px`
   };
 
   return (
