@@ -16,6 +16,7 @@ export default function Hero() {
               <Logo
                 className="w-32 h-auto md:w-40 lg:w-48 drop-shadow-lg"
                 borderColor="#000"
+                borderWidth={16}
               />
             </div>
 
