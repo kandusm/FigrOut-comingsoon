@@ -17,28 +17,33 @@ export default function Logo({ className = "", width, height }: LogoProps) {
       <defs>
         <style>
           {`
-            .logo-bg {
-              fill: #d7e5e8;
+            .st0 {
+              fill: #231f20;
             }
-            .logo-bg, .logo-dark, .logo-primary {
+            .st0, .st1, .st2 {
               stroke: #000;
               stroke-linecap: round;
               stroke-linejoin: round;
               stroke-width: .7px;
             }
-            .logo-dark {
-              fill: #222;
-            }
-            .logo-primary {
+            .st1 {
               fill: #007c8a;
+            }
+            .st2 {
+              fill: none;
             }
           `}
         </style>
       </defs>
-      <rect className="logo-bg" x="471.4" width="977.1" height="1080" rx="10.3" ry="10.3"/>
-      <rect className="logo-dark" x="831.4" y="257.1" width="462.9" height="77.1" rx="10.3" ry="10.3"/>
-      <rect className="logo-dark" x="831.4" y="366.4" width="462.9" height="77.1" rx="10.3" ry="10.3"/>
-      <path className="logo-primary" d="M1345.7,632.6c0,5.7-4.6,10.3-10.3,10.3h-545.1c-5.7,0-10.3,4.6-10.3,10.3v390.9c0,5.7-4.6,10.3-10.3,10.3h-262.3c-5.7,0-10.3-4.6-10.3-10.3V36c0-5.7,4.6-10.3,10.3-10.3h905.1c5.7,0,10.3,4.6,10.3,10.3v210.9c0,5.7-4.6,10.3-10.3,10.3h-622.3c-5.7,0-10.3,4.6-10.3,10.3v165.8c0,5.7,4.6,10.3,10.3,10.3h545.1c5.7,0,10.3,4.6,10.3,10.3v178.8Z"/>
+      <g id="ARC">
+        <path className="st2" d="M1435.2,243c6,0,10.8-4.8,10.8-10.8"/>
+      </g>
+      <g id="LWPOLYLINE">
+        <path className="st1" d="M1435.2,243h-653.4c-6,0-10.8,4.8-10.8,10.8v815.4c0,6-4.8,10.8-10.8,10.8h-275.4c-6,0-10.8-4.8-10.8-10.8V10.8c0-6,4.8-10.8,10.8-10.8h950.4c6,0,10.8,4.8,10.8,10.8v221.4"/>
+      </g>
+      <g id="LWPOLYLINE1" data-name="LWPOLYLINE">
+        <polygon className="st0" points="879 330.7 879 438.7 771 438.7 771 648 879 648 879 756 1365 543.4 879 330.7"/>
+      </g>
     </svg>
   );
 }
